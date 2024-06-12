@@ -26,9 +26,10 @@ jobs:
     - name: Login to Docker Hub
       uses: docker/login-action@v2.2.0
       with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        logout: false
+        registry: registry.cn-hangzhou.aliyuncs.com
+        username: 542352519@qq.com
+        password: Aa12300114
+        logout: false 
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |

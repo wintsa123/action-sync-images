@@ -34,4 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/frooodle/s-pdf:latest docker://registry.cn-hangzhou.aliyuncs.com/wintsa/s-pdf:latest
- 
+         skopeo copy docker://docker.io/jxxghp/moviepilot:latest docker://registry.cn-hangzhou.aliyuncs.com/wintsa/moviepilot:latest
+
